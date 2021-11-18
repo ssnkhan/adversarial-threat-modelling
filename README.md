@@ -128,7 +128,7 @@ ___
 1. [VECTR Documentation](https://docs.vectr.io)
 2. [VECTR Video Guides](https://docs.vectr.io/How-To-Videos/)
 3. [VECTR Issues on Github](https://github.com/SecurityRiskAdvisors/VECTR/issues)
-4. [SRA Vectr Homepage](https://sra.io/vectr/)
+4. [SRA VECTR Homepage](https://sra.io/vectr/)
 
 ---
 
