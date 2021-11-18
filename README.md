@@ -13,14 +13,14 @@ by Sajid Nawaz Khan, _Cyber Threat Intelligence Analyst_
 
 ___
 
-This README is designed to support the above workshop which took place on Friday 11th September 2020 as part of x33fcon: https://www.x33fcon.com/. 
+This README is designed to support the above workshop which took place on Friday 11th September 2020 as part of [x33fcon](https://www.x33fcon.com/). The presentation and README were subsequently updated in November 2021 to incorporate recent changes to VECTR.
 
 ## System Requirements
 Please ensure you have installed [VirtualBox](https://www.virtualbox.org) with the [Extension Pack](https://www.virtualbox.org/wiki/Downloads), followed by a virtual machine running x64 [Ubuntu 20.04 LTS](https://wiki.ubuntu.com/Releases). Ideally, the machine should be configured with at least 4GB of RAM with multi-core support.
 
 
-## Installing Vectr
-Detailed installation instructions are available on the [Vectr Documentation](https://docs.vectr.io) site. The code below is provided for convenience to help support the workshop, and is correct for version 5.7.0 of the Community Edition.
+## Installing VECTR
+Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience to help support the workshop, and is correct for version 8.0.5 of the Community Edition.
 
 
 ### Installing Dependencies
@@ -40,19 +40,19 @@ sudo apt upgrade
 
 sudo systemctl enable docker
 ```
+
 On a minimal install of Ubuntu, you may need to install cURL `sudo apt install curl`.
 
 
-### Installing Vectr
+### Installing VECTR
 To minimise issues during the workshop, please continue with default configuration options when installing Vectr. In production environments, configuring additional options within the `.env` file is strongly recommended.
 
 ```
 sudo mkdir -p /opt/vectr
 cd /opt/vectr
 
-sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-5.7.0/sra-vectr-runtime-5.7.0-ce.zip
-
-sudo unzip sra-vectr-runtime-5.7.0-ce.zip
+sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-8.0.5/sra-vectr-runtime-8.0.5-ce.zip -P /opt/vectr
+sudo unzip sra-vectr-runtime-8.0.5-ce.zip
 
 sudo docker-compose -p sravectr up -d
 ```
@@ -65,23 +65,23 @@ sudo nano /etc/hosts
 127.0.0.1   localhost   sravectr.internal
 ```
 
-## Using Vectr
-### Launching Vectr
-Use the helper scripts [`start_vectr.sh`](./start_vectr.sh) and [`shutdown_vectr.sh`](./shutdown_vectr.sh) within this repo (be sure to `chmod +x`), or run the following directly from your home folder. The very first launch will take a few minutes as Vectr initialises, so please be patient.
+## Using VECTR
+### Launching VECTR
+Use the helper scripts [`start_vectr.sh`](./start_vectr.sh) and [`shutdown_vectr.sh`](./shutdown_vectr.sh) within this repo (be sure to `chmod +x`), or run the following directly from your home folder. The very first launch will take a few minutes as VECTR initialises, so please be patient.
 
 ```
 cd /opt/vectr
 sudo docker-compose up -d
 ```
 
-Struggling to launch Vectr? Run `sudo docker ps`, `sudo docker stop {containerID}` (or `sudo docker stop $(docker ps -a -q)`) and `sudo docker system prune` and try again.
+Struggling to launch VECTR? Run `sudo docker ps`, `sudo docker stop {containerID}` (or `sudo docker stop $(docker ps -a -q)`) and `sudo docker system prune` and try again.
 
 
-### Logging into Vectr
-You should be able to access Vectr at https://sravectr.internal:8081/. The default username is `admin` and the password is `11_ThisIsTheFirstPassword_11`.
+### Logging into VECTR
+You should be able to access VECTR at https://sravectr.internal:8081/. The default username is `admin` and the password is `11_ThisIsTheFirstPassword_11`.
 
 
-### Safely Shutting Down Vectr
+### Safely Shutting Down VECTR
 ```
 cd /opt/vectr
 sudo docker-compose down
@@ -113,6 +113,7 @@ ___
 4. [Recorded Future Threat Intelligence Handbook](https://go.recordedfuture.com/book)
 5. [Adversary Emulation using CALDERA](https://www.slideshare.net/erikvanbuggenhout/adversary-emulation-using-caldera) by Erik Van Buggenhout
 6. [Assess your data potential with ATT&CK Datamap](https://medium.com/@olafhartong/assess-your-data-potential-with-att-ck-datamap-f44884cfed11) by Olaf Hartong
+7. [Purple Team Exercise Framework by SCYTHE](https://www.scythe.io/ptef)
 
 
 ### Tools
@@ -122,10 +123,11 @@ ___
 4. [Sigma](https://github.com/Neo23x0/sigma)
 5. [ATT&CK Techniques Mapped to Data Sources](https://attack.mitre.org/docs/attack_roadmap_2019.pdf)
 
+
 ### Support
-1. [Vectr Documentation](https://docs.vectr.io)
-2. [Vectr Video Guides](https://docs.vectr.io/How-To-Videos/)
-3. [Vectr Issues on Github](https://github.com/SecurityRiskAdvisors/VECTR/issues)
+1. [VECTR Documentation](https://docs.vectr.io)
+2. [VECTR Video Guides](https://docs.vectr.io/How-To-Videos/)
+3. [VECTR Issues on Github](https://github.com/SecurityRiskAdvisors/VECTR/issues)
 4. [SRA Vectr Homepage](https://sra.io/vectr/)
 
 ---
