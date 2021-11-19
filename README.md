@@ -45,7 +45,7 @@ On a minimal install of Ubuntu, you may need to install cURL `sudo apt install c
 
 
 ### Installing VECTR
-To minimise issues during the workshop, please continue with default configuration options when installing Vectr. In production environments, configuring additional options within the `.env` file is strongly recommended.
+To minimise issues during the workshop, please continue with default configuration options when installing VECTR. In production environments, configuring additional options within the `.env` file is strongly recommended.
 
 ```
 sudo mkdir -p /opt/vectr
