@@ -20,7 +20,7 @@ Please ensure you have installed [VirtualBox](https://www.virtualbox.org) with t
 
 
 ## Installing VECTR
-Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience to help support the workshop, and is correct for version 8.0.5 of the Community Edition.
+Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience to help support the workshop, and is correct for version 8.1.4 of the Community Edition.
 
 
 ### Installing Dependencies
@@ -51,8 +51,8 @@ To minimise issues during the workshop, please continue with default configurati
 sudo mkdir -p /opt/vectr
 cd /opt/vectr
 
-sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-8.0.5/sra-vectr-runtime-8.0.5-ce.zip -P /opt/vectr
-sudo unzip sra-vectr-runtime-8.0.5-ce.zip
+sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-8.1.4/sra-vectr-runtime-8.1.4-ce.zip -P /opt/vectr
+sudo unzip sra-vectr-runtime-8.1.4-ce.zip
 
 sudo docker-compose -p sravectr up -d
 ```
@@ -122,6 +122,7 @@ ___
 3. [Atomic Red Team Specification](https://github.com/redcanaryco/atomic-red-team/blob/master/atomic_red_team/spec.yaml)
 4. [Sigma](https://github.com/Neo23x0/sigma)
 5. [ATT&CK Techniques Mapped to Data Sources](https://attack.mitre.org/docs/attack_roadmap_2019.pdf)
+6. [SOC Prime - Sigma Rules Mapped to TTPs](https://attack.socprime.com/#!/)
 
 
 ### Support
