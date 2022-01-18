@@ -118,7 +118,7 @@ ___
 
 ### Tools
 1. [Mitre ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/enterprise/)
-2. [Threat Report ATT&CK Mapping (TRAM)](https://github.com/mitre-attack/tram) - For rapid triage
+2. [Threat Report ATT&CK Mapping (TRAM)](https://github.com/center-for-threat-informed-defense/tram/) - For rapid triage
 3. [Atomic Red Team Specification](https://github.com/redcanaryco/atomic-red-team/blob/master/atomic_red_team/spec.yaml)
 4. [Sigma](https://github.com/Neo23x0/sigma)
 5. [ATT&CK Techniques Mapped to Data Sources](https://attack.mitre.org/docs/attack_roadmap_2019.pdf)
