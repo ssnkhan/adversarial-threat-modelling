@@ -54,7 +54,7 @@ cd /opt/vectr
 sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-8.1.4/sra-vectr-runtime-8.1.4-ce.zip -P /opt/vectr
 sudo unzip sra-vectr-runtime-8.1.4-ce.zip
 
-sudo docker-compose -p sravectr up -d
+sudo docker-compose up -d
 ```
 
 ### Updating the Hosts File
