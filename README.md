@@ -60,7 +60,7 @@ sudo mkdir -p /opt/vectr
 cd /opt/vectr
 
 sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.4.0/sra-vectr-runtime-9.4.0-ce.zip 
-unzip sra-vectr-runtime-9.4.0-ce.zip
+sudo unzip sra-vectr-runtime-9.4.0-ce.zip
 
 ```
 
