@@ -108,7 +108,7 @@ sudo docker-compose down
 nano ~/.bashrc
 
 # Add these entries
-alias startvectr="cd /opt/vectr && sudo docker compose up –d"
+alias startvectr="cd /opt/vectr && sudo docker compose up -d"
 alias stopvectr="cd /opt/vectr && sudo docker compose down"
 
 ```
