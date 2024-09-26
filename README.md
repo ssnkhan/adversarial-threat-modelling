@@ -59,7 +59,7 @@ To minimise issues during the workshop, please continue with default configurati
 sudo mkdir -p /opt/vectr
 cd /opt/vectr
 
-wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.4.0/sra-vectr-runtime-9.4.0-ce.zip 
+sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.4.0/sra-vectr-runtime-9.4.0-ce.zip 
 unzip sra-vectr-runtime-9.4.0-ce.zip
 
 ```
