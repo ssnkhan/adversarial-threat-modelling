@@ -17,6 +17,7 @@
 		<outline text="Analyst1" title="Analyst1" description="" type="rss" version="RSS" htmlUrl="https://analyst1.com/" xmlUrl="https://analyst1.com/feed/"/>
 		<outline text="Anomali" title="Anomali" description="" type="rss" version="RSS" htmlUrl="https://www.anomali.com/blog" xmlUrl="https://www.anomali.com/site/blog-rss"/>
 		<outline text="AON" title="AON" description="" type="rss" version="RSS" htmlUrl="https://www.aon.com/cyber-solutions/aon_cyber_labs/" xmlUrl="https://cyber.aon.com/aon_cyber_labs/feed/"/>
+		<outline text="Aqua Security Research" title="Aqua Security Research" description="" type="rss" version="RSS" htmlUrl="https://www.aquasec.com/" xmlUrl="https://www.aquasec.com/feed/"/>
 		<outline text="AT&amp;T" title="AT&amp;T" description="" type="rss" version="RSS" htmlUrl="https://cybersecurity.att.com/blogs" xmlUrl="https://cybersecurity.att.com//site/blog-all-rss"/>
 		<outline text="AttackIQ" title="AttackIQ" description="" type="rss" version="RSS" htmlUrl="https://www.attackiq.com/blog/" xmlUrl="https://attackiq.com/blog/feed/"/>
 		<outline text="Avast" title="Avast" description="" type="rss" version="RSS" htmlUrl="https://blog.avast.com/" xmlUrl="https://blog.avast.com/rss.xml"/>
@@ -24,7 +25,7 @@
 		<outline text="Avertium" title="Avertium" description="" type="rss" version="RSS" htmlUrl="https://www.avertium.com/resources/threat-reports" xmlUrl="https://www.avertium.com/resources/threat-reports/rss.xml"/>
 		<outline text="Binary Defense" title="Binary Defense" description="" type="rss" version="RSS" htmlUrl="https://www.binarydefense.com/resources/blog/" xmlUrl="https://www.binarydefense.com/resources/blog/feed/"/>
 		<outline text="Bitdefender" title="Bitdefender" description="" type="rss" version="RSS" htmlUrl="https://www.bitdefender.com/blog/businessinsights/" xmlUrl="https://www.bitdefender.co.uk/blog/api/rss/businessinsights/enterprise-security/"/>
-		<outline text="Black Lotus Labs" title="Black Lotus Labs" description="" type="rss" version="RSS" htmlUrl="https://blog.centurylink.com/" xmlUrl="https://blog.centurylink.com/feed/"/>
+		<outline text="Black Lotus Labs" title="Black Lotus Labs" description="" type="rss" version="RSS" htmlUrl="https://ec2-50-112-230-199.us-west-2.compute.amazonaws.com/" xmlUrl="https://blog.centurylink.com/feed/"/>
 		<outline text="Bushido" title="Bushido" description="" type="rss" version="RSS" htmlUrl="https://blog.bushidotoken.net/" xmlUrl="https://blog.bushidotoken.net/feeds/posts/default"/>
 		<outline text="Cado Security" title="Cado Security" description="" type="rss" version="RSS" htmlUrl="https://www.cadosecurity.com/blog" xmlUrl="https://www.cadosecurity.com/blog/rss.xml"/>
 		<outline text="Censys Research" title="Censys Research" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://censys.com/tag/research/feed/"/>
@@ -52,6 +53,7 @@
 		<outline text="FIRST" title="FIRST" description="" type="rss" version="RSS" htmlUrl="https://www.first.org/blog" xmlUrl="https://www.first.org/blog/rss.xml"/>
 		<outline text="Fortinet" title="Fortinet" description="" type="rss" version="RSS" htmlUrl="https://www.fortinet.com/bin/fortinet/allblogsrss?search=threat-research" xmlUrl="https://feeds.feedblitz.com/fortinet/blog/threat-research"/>
 		<outline text="FoxIntell" title="FoxIntell" description="" type="rss" version="RSS" htmlUrl="https://blog.fox-it.com/" xmlUrl="https://blog.fox-it.com/feed/"/>
+		<outline text="G Data" title="G Data" description="" type="rss" version="RSS" htmlUrl="https://www.gdatasoftware.com/blog" xmlUrl="https://feeds.feedblitz.com/GDataSecurityBlog-EN&amp;x=1"/>
 		<outline text="Google Threat Analysis Group" title="Google Threat Analysis Group" description="" type="rss" version="RSS" htmlUrl="https://blog.google/threat-analysis-group/" xmlUrl="https://blog.google/threat-analysis-group/rss/"/>
 		<outline text="Google Threat Intelligence" title="Google Threat Intelligence" description="" type="rss" version="RSS" htmlUrl="https://cloud.google.com/blog/topics/threat-intelligence/" xmlUrl="https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/"/>
 		<outline text="GroupIB" title="GroupIB" description="" type="rss" version="RSS" htmlUrl="https://www.group-ib.com/blog/" xmlUrl="https://www.group-ib.com/feed/blogfeed/"/>
@@ -74,7 +76,7 @@
 		<outline text="Lab52" title="Lab52" description="" type="rss" version="RSS" htmlUrl="https://lab52.io/blog" xmlUrl="https://lab52.io/blog/feed/"/>
 		<outline text="Logpoint" title="Logpoint" description="" type="rss" version="RSS" htmlUrl="https://www.logpoint.com/en/blog/feed/" xmlUrl="https://www.logpoint.com/en/blog/feed/"/>
 		<outline text="Logpoint" title="Logpoint" description="" type="rss" version="RSS" htmlUrl="https://www.logpoint.com/en/feed/" xmlUrl="https://www.logpoint.com/en/feed/"/>
-		<outline text="LUMEN" title="LUMEN" description="" type="rss" version="RSS" htmlUrl="https://blog.centurylink.com/" xmlUrl="https://blog.lumen.com/feed/"/>
+		<outline text="LUMEN" title="LUMEN" description="" type="rss" version="RSS" htmlUrl="https://ec2-50-112-230-199.us-west-2.compute.amazonaws.com/" xmlUrl="https://blog.lumen.com/feed/"/>
 		<outline text="Malpedia" title="Malpedia" description="" type="rss" version="RSS" htmlUrl="https://malpedia.caad.fkie.fraunhofer.de/" xmlUrl="https://malpedia.caad.fkie.fraunhofer.de/feeds/rss/latest"/>
 		<outline text="Malware Bytes" title="Malware Bytes" description="" type="rss" version="RSS" htmlUrl="https://www.malwarebytes.com/" xmlUrl="https://blog.malwarebytes.com/feed/"/>
 		<outline text="Mandiant" title="Mandiant" description="" type="rss" version="RSS" htmlUrl="https://cloud.google.com/blog/topics/threat-intelligence/" xmlUrl="https://www.mandiant.com/resources/blog/rss.xml"/>
@@ -131,6 +133,7 @@
 		<outline text="VMWare Security" title="VMWare Security" description="" type="rss" version="RSS" htmlUrl="https://blogs.vmware.com/security/" xmlUrl="https://feeds.feedburner.com/VmwareSecurityComplianceBlog"/>
 		<outline text="Volexity" title="Volexity" description="" type="rss" version="RSS" htmlUrl="https://www.volexity.com/blog/" xmlUrl="https://www.volexity.com/blog/feed/"/>
 		<outline text="Wiz" title="Wiz" description="" type="rss" version="RSS" htmlUrl="https://www.wiz.io/" xmlUrl="https://www.wiz.io/blog/rss"/>
+		<outline text="Wiz: Cloud Threat Landscape" title="Wiz: Cloud Threat Landscape" description="" type="rss" version="RSS" htmlUrl="https://threats.wiz.io/" xmlUrl="https://www.wiz.io/api/feed/cloud-threat-landscape/rss.xml"/>
 		<outline text="Yoroi" title="Yoroi" description="" type="rss" version="RSS" htmlUrl="https://yoroi.company/" xmlUrl="https://yoroi.company/feed/"/>
 		<outline text="Zimperium" title="Zimperium" description="" type="rss" version="RSS" htmlUrl="https://www.zimperium.com/blog/" xmlUrl="https://blog.zimperium.com/feed/"/>
 		<outline text="Zscaler" title="Zscaler" description="" type="rss" version="RSS" htmlUrl="https://www.zscaler.com/blogs" xmlUrl="https://www.zscaler.com/blogs/feeds/security-research"/>
