@@ -22,7 +22,7 @@ Please ensure you have installed [VirtualBox](https://www.virtualbox.org) (or yo
 
 
 ## Installing VECTR
-Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.4.0 of the Community Edition.
+Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.5.2 of the Community Edition.
 
 
 ### Installing Dependencies
@@ -59,8 +59,8 @@ To minimise issues during the workshop, please continue with default configurati
 sudo mkdir -p /opt/vectr
 cd /opt/vectr
 
-sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.4.0/sra-vectr-runtime-9.4.0-ce.zip 
-sudo unzip sra-vectr-runtime-9.4.0-ce.zip
+sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.5.2/sra-vectr-runtime-9.5.2-ce.zip 
+sudo unzip sra-vectr-runtime-9.5.2-ce.zip
 
 ```
 
@@ -152,9 +152,10 @@ ___
 
 
 ### Tools
-1. [Mitre ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/enterprise/)
-2. [Threat Report ATT&CK Mapping (TRAM)](https://github.com/center-for-threat-informed-defense/tram/) - For rapid triage
-3. [Sigma](https://github.com/Neo23x0/sigma)
+1. [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/enterprise/)
+2. [ATT&CK Powered Suit](https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/attack-powered-suit/) -- Browser extension / ATT&CK reference 
+3. [Threat Report ATT&CK Mapping (TRAM)](https://github.com/center-for-threat-informed-defense/tram/) -- For rapid triage
+4. [Sigma](https://github.com/Neo23x0/sigma)
 
 
 ### Support
