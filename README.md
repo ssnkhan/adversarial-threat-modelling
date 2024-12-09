@@ -22,7 +22,7 @@ Please ensure you have installed [VirtualBox](https://www.virtualbox.org) (or yo
 
 
 ## Installing VECTR
-Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.5.2 of the Community Edition.
+Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.5.3 of the Community Edition.
 
 
 ### Installing Dependencies
@@ -59,8 +59,8 @@ To minimise issues during the workshop, please continue with default configurati
 sudo mkdir -p /opt/vectr
 cd /opt/vectr
 
-sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.5.2/sra-vectr-runtime-9.5.2-ce.zip 
-sudo unzip sra-vectr-runtime-9.5.2-ce.zip
+sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.5.3/sra-vectr-runtime-9.5.3-ce.zip 
+sudo unzip sra-vectr-runtime-9.5.3-ce.zip
 
 ```
 
