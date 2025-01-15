@@ -134,6 +134,13 @@ _Not recommended for production deployments!_
 4. [Palo Alto Networks Unit 42 Playbooks](https://pan-unit42.github.io/playbook_viewer/)
 
 
+### Generating Insights Using `ipysigma`/Gephi
+> Gephi and other link analysis tools can be used to surface trends within a VECTR dataset, allowing defenders to focus their efforts on prevalent techniques observed across a range of threat groups. 
+
+1. Export your VECTR database via _Environment ▶ Export Active Environment_, and save it as `VECTR.csv`
+2. Create a Python venv, and install dependencies via `pip install ipysigma networkx pandas`
+3. Optionally, update `threat_actor_include`, `threat_actor_exclude` and `year`, and uncomment `# vectr_df = vectr_filtered_df`
+4. Run `VECTR_Gephi_Directed.ipynb`, and view `VECTR_Directed.html`
 
 ___
 
