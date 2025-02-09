@@ -2,9 +2,9 @@
 
 More and more organisations are beginning to realise the value of ATT&CK. But how can you bring your teams together to help nurture, develop and deploy a framework which consistently yields results?
 
-This presentation details the approach developed by the Cyber Threat Intelligence team of a global bank, and how it worked together with defensive and offensive teams to deliver a compelling solution to uplift the organisations' security posture; one adversary TTP at a time.
+This presentation details the approach developed by the Cyber Threat Intelligence team of a global bank, and how it worked together with defensive and offensive teams to deliver a compelling solution to uplift the organisations' security posture; one adversarial TTP at a time.
 
-The corresponding workshop is designed to provide practical guidance to practitioners that they can adapt for their organisations. Key learning objectives will include transforming countermeasure initiatives to be intelligence-led, and developing and deploying a threat library.
+The corresponding workshop is designed to provide practical guidance to practitioners that they can adapt for their organisations. Key learning objectives include transforming countermeasure initiatives to be intelligence-led, and developing and deploying a threat library.
 
 
 [![Intelligence-Led Adversarial Threat Modelling with VECTR](./TitleSlide.png "Intelligence-Led Adversarial Threat Modelling with VECTR")](./Adversarial-Threat-Modelling_Presentation.pdf)
@@ -22,7 +22,7 @@ Please ensure you have installed [VirtualBox](https://www.virtualbox.org) (or yo
 
 
 ## Installing VECTR
-Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.5.3 of the Community Edition.
+Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.6.5 of the Community Edition.
 
 
 ### Installing Dependencies
@@ -56,11 +56,10 @@ To minimise issues during the workshop, please continue with default configurati
 
 ```
 
-sudo mkdir -p /opt/vectr
-cd /opt/vectr
+sudo mkdir -p /opt/vectr && cd /opt/vectr
 
-sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.5.3/sra-vectr-runtime-9.5.3-ce.zip 
-sudo unzip sra-vectr-runtime-9.5.3-ce.zip
+sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.6.5/sra-vectr-runtime-9.6.5-ce.zip 
+sudo unzip sra-vectr-runtime-9.6.5-ce.zip
 
 ```
 
