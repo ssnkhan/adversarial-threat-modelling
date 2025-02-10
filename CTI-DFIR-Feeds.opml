@@ -25,6 +25,7 @@
 		<outline text="Avertium" title="Avertium" description="" type="rss" version="RSS" htmlUrl="https://www.avertium.com/resources/threat-reports" xmlUrl="https://www.avertium.com/resources/threat-reports/rss.xml"/>
 		<outline text="Binary Defense" title="Binary Defense" description="" type="rss" version="RSS" htmlUrl="https://www.binarydefense.com/resources/blog/" xmlUrl="https://www.binarydefense.com/resources/blog/feed/"/>
 		<outline text="Bitdefender" title="Bitdefender" description="" type="rss" version="RSS" htmlUrl="https://www.bitdefender.com/en-gb/blog/businessinsights/" xmlUrl="https://www.bitdefender.co.uk/blog/api/rss/businessinsights/enterprise-security/"/>
+		<outline text="Bitdefender Threat Research" title="Bitdefender Threat Research" description="" type="rss" version="RSS" htmlUrl="https://www.bitdefender.com/en-us/blog/businessinsights/" xmlUrl="https://www.bitdefender.com/nuxt/api/en-us/rss/businessinsights/threat-research/"/>
 		<outline text="Black Lotus Labs" title="Black Lotus Labs" description="" type="rss" version="RSS" htmlUrl="https://blog.lumen.com/" xmlUrl="https://blog.centurylink.com/feed/"/>
 		<outline text="Bushido" title="Bushido" description="" type="rss" version="RSS" htmlUrl="https://blog.bushidotoken.net/" xmlUrl="https://blog.bushidotoken.net/feeds/posts/default"/>
 		<outline text="Cado Security" title="Cado Security" description="" type="rss" version="RSS" htmlUrl="https://www.cadosecurity.com/blog" xmlUrl="https://www.cadosecurity.com/blog/rss.xml"/>
@@ -44,7 +45,7 @@
 		<outline text="Cyble" title="Cyble" description="" type="rss" version="RSS" htmlUrl="https://cyble.com/" xmlUrl="https://cyble.com/feed/"/>
 		<outline text="Datadog" title="Datadog" description="" type="rss" version="RSS" htmlUrl="https://securitylabs.datadoghq.com/rss/feed.xml" xmlUrl="https://securitylabs.datadoghq.com/rss/feed.xml"/>
 		<outline text="Deep Instinct" title="Deep Instinct" description="" type="rss" version="RSS" htmlUrl="https://www.deepinstinct.com/" xmlUrl="https://www.deepinstinct.com/blog/feed"/>
-		<outline text="Domain Tools" title="Domain Tools" description="" type="rss" version="RSS" htmlUrl="https://www.domaintools.com/feed/" xmlUrl="https://www.domaintools.com/feed/"/>
+		<outline text="Domain Tools" title="Domain Tools" description="" type="rss" version="RSS" htmlUrl="https://www.domaintools.com/" xmlUrl="https://www.domaintools.com/feed/"/>
 		<outline text="Dragos" title="Dragos" description="" type="rss" version="RSS" htmlUrl="https://www.dragos.com/" xmlUrl="https://www.dragos.com/feed/"/>
 		<outline text="Duo" title="Duo" description="" type="rss" version="RSS" htmlUrl="https://decipher.sc/" xmlUrl="https://duo.com/decipher/feed"/>
 		<outline text="EclecticIQ" title="EclecticIQ" description="" type="rss" version="RSS" htmlUrl="https://blog.eclecticiq.com/" xmlUrl="https://blog.eclecticiq.com/rss.xml"/>
@@ -60,7 +61,7 @@
 		<outline text="GroupIB" title="GroupIB" description="" type="rss" version="RSS" htmlUrl="https://www.group-ib.com/blog/" xmlUrl="https://www.group-ib.com/feed/blogfeed/"/>
 		<outline text="Guardio Security" title="Guardio Security" description="" type="rss" version="RSS" htmlUrl="https://medium.com/@guardiosecurity?source=rss-6a038e71ff0f------2" xmlUrl="https://medium.com/feed/@guardiosecurity"/>
 		<outline text="GuidePoint Security" title="GuidePoint Security" description="" type="rss" version="RSS" htmlUrl="https://www.guidepointsecurity.com/blog/" xmlUrl="https://www.guidepointsecurity.com/blog/feed/"/>
-		<outline text="Hauri" title="Hauri" description="" type="rss" version="RSS" htmlUrl="https://hauri.co.kr/security/security.html" xmlUrl="https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fhauri.co.kr%2Fsecurity%2Fsecurity.html&amp;in_id_or_class=column+bbs-title&amp;max=5&amp;order=document&amp;guid=0"/>
+		<outline text="Hauri" title="Hauri" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fhauri.co.kr%2Fsecurity%2Fsecurity.html&amp;in_id_or_class=column+bbs-title&amp;max=5&amp;order=document&amp;guid=0"/>
 		<outline text="Hunters" title="Hunters" description="" type="rss" version="RSS" htmlUrl="https://www.hunters.security/en/blog" xmlUrl="https://www.hunters.security/en/blog/rss.xml"/>
 		<outline text="Huntress" title="Huntress" description="" type="rss" version="RSS" htmlUrl="https://www.huntress.com/" xmlUrl="https://www.huntress.com/blog/rss.xml"/>
 		<outline text="Infoblox" title="Infoblox" description="" type="rss" version="RSS" htmlUrl="https://blogs.infoblox.com/" xmlUrl="https://blogs.infoblox.com/feed/"/>
@@ -87,6 +88,7 @@
 		<outline text="Microsoft Security Centre" title="Microsoft Security Centre" description="" type="rss" version="RSS" htmlUrl="https://www.microsoft.com/en-us/security/blog/" xmlUrl="https://www.microsoft.com/security/blog/feed/"/>
 		<outline text="Monty Security" title="Monty Security" description="" type="rss" version="RSS" htmlUrl="https://medium.com/@montysecurity?source=rss-9369a68f4b09------2" xmlUrl="https://montysecurity.medium.com/feed"/>
 		<outline text="Morphisec" title="Morphisec" description="" type="rss" version="RSS" htmlUrl="https://blog.morphisec.com/" xmlUrl="https://blog.morphisec.com/rss.xml"/>
+		<outline text="Morphisec Labs" title="Morphisec Labs" description="" type="rss" version="RSS" htmlUrl="https://www.morphisec.com/" xmlUrl="https://www.morphisec.com/feed/"/>
 		<outline text="NCC Group" title="NCC Group" description="" type="rss" version="RSS" htmlUrl="https://research.nccgroup.com/" xmlUrl="https://research.nccgroup.com/feed/"/>
 		<outline text="NCSC News" title="NCSC News" description="" type="rss" version="RSS" htmlUrl="https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml" xmlUrl="https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml"/>
 		<outline text="NCSC Threat Reports" title="NCSC Threat Reports" description="" type="rss" version="RSS" htmlUrl="https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml" xmlUrl="https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml"/>
@@ -105,7 +107,7 @@
 		<outline text="Quo Intelligence" title="Quo Intelligence" description="" type="rss" version="RSS" htmlUrl="https://quointelligence.eu/" xmlUrl="https://quointelligence.eu/feed/"/>
 		<outline text="Recorded Future" title="Recorded Future" description="" type="rss" version="RSS" htmlUrl="https://www.recordedfuture.com/feed" xmlUrl="https://www.recordedfuture.com/feed/"/>
 		<outline text="Red Canary" title="Red Canary" description="" type="rss" version="RSS" htmlUrl="https://redcanary.com/blog/" xmlUrl="https://redcanary.com/blog/feed/"/>
-		<outline text="Redacted" title="Redacted" description="" type="rss" version="RSS" htmlUrl="https://redacted.com/blog/" xmlUrl="https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fredacted.com%2Fblog%2F&amp;in_id_or_class=u-h2+u-mb-1&amp;max=5&amp;order=document&amp;guid=0&amp;url_contains%5B0%5D=%2Fblog%2F"/>
+		<outline text="Redacted" title="Redacted" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fredacted.com%2Fblog%2F&amp;in_id_or_class=u-h2+u-mb-1&amp;max=5&amp;order=document&amp;guid=0&amp;url_contains%5B0%5D=%2Fblog%2F"/>
 		<outline text="ReliaQuest" title="ReliaQuest" description="" type="rss" version="RSS" htmlUrl="https://www.reliaquest.com/" xmlUrl="https://www.reliaquest.com/blog/feed/"/>
 		<outline text="Russian Panda" title="Russian Panda" description="" type="rss" version="RSS" htmlUrl="https://russianpanda95.github.io/" xmlUrl="https://russianpanda.com/feed.xml"/>
 		<outline text="S-RM" title="S-RM" description="" type="rss" version="RSS" htmlUrl="https://www.s-rminform.com/cyber-intelligence-briefing" xmlUrl="https://www.s-rminform.com/cyber-intelligence-briefing/rss.xml"/>
@@ -114,12 +116,14 @@
 		<outline text="SecureList" title="SecureList" description="" type="rss" version="RSS" htmlUrl="https://securelist.com/" xmlUrl="https://securelist.com/feed/"/>
 		<outline text="Security 0wnage" title="Security 0wnage" description="" type="rss" version="RSS" htmlUrl="https://sec0wn.blogspot.com/" xmlUrl="https://sec0wn.blogspot.com/feeds/posts/default"/>
 		<outline text="SecurityScorecard" title="SecurityScorecard" description="" type="rss" version="RSS" htmlUrl="https://securityscorecard.com/research/" xmlUrl="https://securityscorecard.com/research/feed/"/>
-		<outline text="Securonix" title="Securonix" description="" type="rss" version="RSS" htmlUrl="https://www.securonix.com/blog/" xmlUrl="https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.securonix.com%2Fblog%2F&amp;item=div.listing-content&amp;item_title=h5&amp;item_date=date&amp;max=10&amp;order=document&amp;guid=0"/>
+		<outline text="Securonix" title="Securonix" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.securonix.com%2Fblog%2F&amp;item=div.listing-content&amp;item_title=h5&amp;item_date=date&amp;max=10&amp;order=document&amp;guid=0"/>
 		<outline text="Sekoia" title="Sekoia" description="" type="rss" version="RSS" htmlUrl="https://blog.sekoia.io/" xmlUrl="https://blog.sekoia.io/feed/"/>
 		<outline text="Sentinel One" title="Sentinel One" description="" type="rss" version="RSS" htmlUrl="https://www.sentinelone.com/" xmlUrl="https://www.sentinelone.com/feed/"/>
 		<outline text="Sentinel One Labs" title="Sentinel One Labs" description="" type="rss" version="RSS" htmlUrl="https://www.sentinelone.com/labs/" xmlUrl="https://www.sentinelone.com/labs/feed/"/>
 		<outline text="Seqrite" title="Seqrite" description="" type="rss" version="RSS" htmlUrl="https://www.seqrite.com/blog" xmlUrl="https://www.seqrite.com/blog/feed"/>
 		<outline text="SOC Prime" title="SOC Prime" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://socprime.com/feed/"/>
+		<outline text="Socket" title="Socket" description="" type="rss" version="RSS" htmlUrl="https://socket.dev/api/blog/feed.json" xmlUrl="https://socket.dev/api/blog/feed.atom"/>
+		<outline text="SOCRadar" title="SOCRadar" description="" type="rss" version="RSS" htmlUrl="https://socradar.io/" xmlUrl="https://socradar.io/feed/"/>
 		<outline text="Sophos" title="Sophos" description="" type="rss" version="RSS" htmlUrl="https://news.sophos.com/en-us/" xmlUrl="https://news.sophos.com/feed/"/>
 		<outline text="Stairwell" title="Stairwell" description="" type="rss" version="RSS" htmlUrl="https://stairwell.com/" xmlUrl="https://stairwell.com/news/feed/"/>
 		<outline text="Sucuri" title="Sucuri" description="" type="rss" version="RSS" htmlUrl="https://blog.sucuri.net/" xmlUrl="https://blog.sucuri.net/feed"/>
@@ -159,7 +163,7 @@
 		<outline text="Mike Cohen" title="Mike Cohen" description="" type="rss" version="RSS" htmlUrl="https://medium.com/@velocidex?source=rss-45aa184bb2c2------2" xmlUrl="https://medium.com/feed/@velocidex"/>
 		<outline text="Olaf Hartong" title="Olaf Hartong" description="" type="rss" version="RSS" htmlUrl="https://medium.com/@olafhartong?source=rss-5ca7329adb2b------2" xmlUrl="https://medium.com/feed/@olafhartong"/>
 		<outline text="SpecterOps" title="SpecterOps" description="" type="rss" version="RSS" htmlUrl="https://posts.specterops.io?source=rss----f05f8696e3cc---4/" xmlUrl="https://posts.specterops.io/feed"/>
-		<outline text="Stephan Berger" title="Stephan Berger" description="" type="rss" version="RSS" htmlUrl="https://dfir.ch/posts/" xmlUrl="https://dfir.ch/posts/index.xml"/>
+		<outline text="Stephan Berger" title="Stephan Berger" description="" type="rss" version="RSS" htmlUrl="http://localhost:1313/posts/" xmlUrl="https://dfir.ch/posts/index.xml"/>
 		<outline text="svch0st" title="svch0st" description="" type="rss" version="RSS" htmlUrl="https://medium.com/@svch0st?source=rss-57f915b6128e------2" xmlUrl="https://medium.com/feed/@svch0st"/>
 		<outline text="Tony Lambert" title="Tony Lambert" description="" type="rss" version="RSS" htmlUrl="https://forensicitguy.github.io/" xmlUrl="https://forensicitguy.github.io/feed.xml"/>
 	</outline>
@@ -197,6 +201,7 @@
 		<outline text="ShadowStackRE" title="ShadowStackRE" description="" type="rss" version="RSS" htmlUrl="https://www.shadowstackre.com/" xmlUrl="https://www.shadowstackre.com/analysis?format=rss"/>
 		<outline text="Spooks" title="Spooks" description="" type="rss" version="RSS" htmlUrl="https://blog.spookysec.net//" xmlUrl="https://blog.spookysec.net/feed.xml"/>
 		<outline text="Squiblydoo" title="Squiblydoo" description="" type="rss" version="RSS" htmlUrl="https://squiblydoo.blog/" xmlUrl="https://squiblydoo.blog/feed/"/>
+		<outline text="UnpacMe" title="UnpacMe" description="" type="rss" version="RSS" htmlUrl="https://blog.unpac.me/" xmlUrl="https://blog.unpac.me/rss/"/>
 	</outline>
 	<outline text="OSINT" title="OSINT">
 		<outline text="Bellingcat" title="Bellingcat" description="" type="rss" version="RSS" htmlUrl="https://www.bellingcat.com/" xmlUrl="https://www.bellingcat.com/feed/"/>
