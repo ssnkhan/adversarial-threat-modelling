@@ -143,20 +143,22 @@ ___
 
 ## Exercises
 ### Importing Existing Datasets
+1. [SRA Threat Simulation Index](https://github.com/SecurityRiskAdvisors/indexes)
+2. [SRA Iran TTPs](https://github.com/SecurityRiskAdvisors/VECTR/blob/master/cti/Iranian_TTP_Bundle_010920.json)
+
 _Not recommended for production deployments!_
-1. [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/index.yaml)
-2. [MITRE Enterprise ATT&CK CTI Bundle](https://github.com/mitre/cti/blob/master/enterprise-attack/enterprise-attack.json)
-3. [SRA Iran TTPs](https://github.com/SecurityRiskAdvisors/VECTR/blob/master/cti/Iranian_TTP_Bundle_010920.json)
+
+3. [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/index.yaml)
+4. [MITRE Enterprise ATT&CK CTI Bundle](https://github.com/mitre/cti/blob/master/enterprise-attack/enterprise-attack.json)
 
 
 ### Developing your Threat Library
-> Creating your own adversary emulation plan draws on the greatest strength of combining red teaming with your own threat intelligence: the behaviors are seen from real-world adversaries targeting you! — _Mitre_
+> Creating your own adversary emulation plan draws on the greatest strength of combining red teaming with your own threat intelligence: the behaviors are seen from real-world adversaries targeting you! — _MITRE_
 
 
 1. [Malpedia](https://malpedia.caad.fkie.fraunhofer.de)
 2. [MITRE Engenuity Adversary Emulation Library](https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/adversary-emulation-library/)
 3. [APT & Cybercriminals Campaign Collection](https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections)
-4. [Palo Alto Networks Unit 42 Playbooks](https://pan-unit42.github.io/playbook_viewer/)
 
 
 ### Generating Insights Using `ipysigma`/Gephi
