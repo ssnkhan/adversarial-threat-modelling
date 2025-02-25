@@ -68,8 +68,7 @@ For a default install, add `sravectr.internal` to your hosts file as follows:
 
 ```
 
-sudo nano /etc/hosts
-127.0.0.1   localhost   sravectr.internal
+echo "127.0.0.1 sravectr.internal" | sudo tee -a /etc/hosts
 
 ```
 
@@ -96,7 +95,7 @@ You should be able to access VECTR at https://sravectr.internal:8081/. The defau
 ```
 
 cd /opt/vectr
-sudo docker-compose down
+sudo docker compose down
 
 ```
 
@@ -104,11 +103,9 @@ sudo docker-compose down
 ### Add Bash Aliases (Optional)
 ```
 
-nano ~/.bashrc
-
-# Add these entries
-alias startvectr="cd /opt/vectr && sudo docker compose up -d"
-alias stopvectr="cd /opt/vectr && sudo docker compose down"
+# Start a new Terminal after adding these aliases
+echo 'alias startvectr="cd /opt/vectr && sudo docker compose up -d"' | tee -a ~/.bashrc
+echo 'alias stopvectr="cd /opt/vectr && sudo docker compose down"' | tee -a ~/.bashrc
 
 ```
 
@@ -119,7 +116,7 @@ VECTR is actively maintained, with new features and bug fixes being made availab
 ```
 
 # Safely shut down VECTR
-cd /opt/vectr && sudo docker-compose down
+cd /opt/vectr && sudo docker compose down
 
 
 # Download the latest .zip release package via your browser
