@@ -14,7 +14,7 @@ by Sajid Nawaz Khan, _Principal Cyber Threat Intelligence Analyst_
 
 ___
 
-**UPDATED**: This README is designed to support the above workshop, originally titled _Adversarial Threat Modelling — A Practical Approach to Purple Teaming in the Enterprise_, which took place on Friday 11th September 2020 as part of [x33fcon](https://www.x33fcon.com/), and which was significantly refreshed and revised in September 2024.
+**UPDATED**: This README is designed to support the above workshop, originally titled _Adversarial Threat Modelling — A Practical Approach to Purple Teaming in the Enterprise_, which took place on Friday 11th September 2020 as part of [x33fcon](https://www.x33fcon.com/), and which was significantly refreshed and revised in September 2024, and again in February 2025.
 
 
 ## System Requirements
