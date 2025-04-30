@@ -22,7 +22,7 @@ Please ensure you have installed [VirtualBox](https://www.virtualbox.org) (or yo
 
 
 ## Installing VECTR
-Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.7.0 of the Community Edition.
+Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.8.1 of the Community Edition.
 
 
 ### Installing Dependencies
@@ -58,8 +58,8 @@ To minimise issues during the workshop, please continue with default configurati
 
 sudo mkdir -p /opt/vectr && cd /opt/vectr
 
-sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.7.0/sra-vectr-runtime-9.7.0-ce.zip 
-sudo unzip sra-vectr-runtime-9.7.0-ce.zip
+sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.8.1/sra-vectr-runtime-9.8.1-ce.zip 
+sudo unzip sra-vectr-runtime-9.8.1-ce.zip
 
 ```
 
@@ -121,11 +121,11 @@ cd /opt/vectr && sudo docker compose down
 
 # Download the latest .zip release package via your browser
 # https://github.com/SecurityRiskAdvisors/VECTR/releases
-# e.g., sra-vectr-runtime-9.6.5-ce.zip
+# e.g., sra-vectr-runtime-9.8.1-ce.zip
 
 
 # Extract, optionally inspect docker-compose.yml
-unzip ~/Downloads/sra-vectr-runtime-9.6.5-ce.zip
+unzip ~/Downloads/sra-vectr-runtime-9.8.1-ce.zip
 cat docker-compose.yml
 
 
