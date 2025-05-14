@@ -1,6 +1,6 @@
 # Intelligence-Led Adversarial Threat Modelling with VECTR
 
-More and more organisations are beginning to realise the value of ATT&CK. But how can you bring your teams together to help nurture, develop and deploy a framework which consistently yields results?
+More and more organisations are beginning to realise the value of ATT&CK. But how can you bring your teams together to help develop and nurture an operational  framework which consistently yields results?
 
 This presentation details the approach developed by the Cyber Threat Intelligence team of a global bank, and how it worked together with defensive and offensive teams to deliver a compelling solution to uplift the organisations' security posture; one adversarial TTP at a time.
 
@@ -22,7 +22,7 @@ Please ensure you have installed [VirtualBox](https://www.virtualbox.org) (or yo
 
 
 ## Installing VECTR
-Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.8.1 of the Community Edition.
+Detailed installation instructions are available on the [VECTR Documentation](https://docs.vectr.io) site. The code below is provided for convenience, and is correct for version 9.8.3 of the Community Edition.
 
 
 ### Installing Dependencies
@@ -58,8 +58,8 @@ To minimise issues during the workshop, please continue with default configurati
 
 sudo mkdir -p /opt/vectr && cd /opt/vectr
 
-sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.8.1/sra-vectr-runtime-9.8.1-ce.zip 
-sudo unzip sra-vectr-runtime-9.8.1-ce.zip
+sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-9.8.3/sra-vectr-runtime-9.8.3-ce.zip 
+sudo unzip sra-vectr-runtime-9.8.3-ce.zip
 
 ```
 
@@ -121,11 +121,11 @@ cd /opt/vectr && sudo docker compose down
 
 # Download the latest .zip release package via your browser
 # https://github.com/SecurityRiskAdvisors/VECTR/releases
-# e.g., sra-vectr-runtime-9.8.1-ce.zip
+# e.g., sra-vectr-runtime-9.8.3-ce.zip
 
 
 # Extract, optionally inspect docker-compose.yml
-unzip ~/Downloads/sra-vectr-runtime-9.8.1-ce.zip
+unzip ~/Downloads/sra-vectr-runtime-9.8.3-ce.zip
 cat docker-compose.yml
 
 
