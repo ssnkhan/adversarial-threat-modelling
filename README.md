@@ -139,6 +139,17 @@ ___
 
 
 ## Exercises
+### Campaigns (ATT&CK Mapping)
+1. [Warlock: From SharePoint Vulnerability Exploit to Enterprise Ransomware](https://www.trendmicro.com/en_us/research/25/h/warlock-ransomware.html)
+2. [Crypto24 Ransomware Uncovered: Stealth, Persistence, and Enterprise-Scale Impact](https://www.picussecurity.com/resource/blog/crypto24-ransomware-uncovered-stealth-persistence-and-enterprise-scale-impact)
+3. [Crypto24 Ransomware Group Blends Legitimate Tools with Custom Malware for Stealth Attacks](https://www.trendmicro.com/en_gb/research/25/h/crypto24-ransomware-stealth-attacks.html)
+4. [Cobalt Strike and a Pair of SOCKS Lead to LockBit Ransomware](https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/)
+5. [Unmasking a Financial Services Intrusion: REF0657](https://www.elastic.co/security-labs/unmasking-financial-services-intrusion-ref0657)
+6. [Threat Actors Target MSSQL Servers in DB#JAMMER to Deliver Freeworld Ransomware](https://www.securonix.com/blog/securonix-threat-labs-security-advisory-threat-actors-target-mssql-servers-in-dbjammer-to-deliver-freeworld-ransomware/)
+7. [From Campus to C2: Tracking a Persistent Chinese Operation Against Vietnamese Universities](https://ctrlaltintel.com/threat%20research/china-vietnam-campaign/)
+
+
+
 ### Importing Existing Datasets
 1. [SRA Threat Simulation Index](https://github.com/SecurityRiskAdvisors/indexes)
 2. [SRA Iran TTPs](https://github.com/SecurityRiskAdvisors/VECTR/blob/master/cti/Iranian_TTP_Bundle_010920.json)
